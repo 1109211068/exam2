@@ -19,7 +19,7 @@
         width: 100%;
         min-height: calc(100vw * 0.73);
         overflow: hidden;
-        }ㄕ
+        }
         .hero-bg {
         position: absolute;
         top: 0;
@@ -461,7 +461,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         position: absolute;
         right: 100px;
         text-align: center;
-        top: 100px;
+        top: 90px;
         font-size: 3rem;
         padding: 50px;
         /* background-color: #FFF3D1;
