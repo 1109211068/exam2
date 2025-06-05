@@ -1,8 +1,4 @@
-* {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        }
+
 
         @font-face {
         font-family: 'cat'; /* 給這個字體一個你喜歡的名稱 */
@@ -19,38 +15,6 @@
         width: 100%;
         min-height: calc(100vw * 0.73);
         overflow: hidden;
-        }
-        .hero-bg {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-        background-color: #fefefe;
-        z-index: 0;
-        }
-        nav {
-        position: fixed;
-        margin-top: 30px;
-        /* margin-right: 200px; */
-        top: 30px;
-        right: 40px;
-        display: flex;
-        gap: 60px;
-        /* background: rgba(255, 255, 255, 0.8); */
-        padding: 10px 20px;
-        border-radius: 20px;
-        z-index: 12;
-        }
-        nav a {
-        text-decoration: none;
-        color: #333;
-        font-weight: bold;
-        font-size: 1.6rem;
-        }
-        nav a:hover {
-        color: #007BFF;
         }
         .hero-text {
         max-width: none;
@@ -93,7 +57,7 @@
         position: relative;
         width: 100%;
         height: calc(100vw * 0.504);
-        background-image: url('img/slice9.png');
+        background-image: url('/img/slice9.png');
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -134,7 +98,7 @@
     .section3 {
         width: 100%;
         height: calc(100vw * 1300 / 1920); 
-        background-image: url('img/Slice8.png');    
+        background-image: url('/img/Slice8.png');    
         display: flex;
         justify-content: center;
         align-items: center;
@@ -592,7 +556,7 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
     .section4 .bag{
         position: absolute;
-        right: 5px;
+        right: 40px;
         top: 180px;
         transform: rotate(30deg);
         z-index: 9;
@@ -615,35 +579,6 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
         top: 120px;
         z-index: 3;
     }
-
-    
-    .hero .navbg{
-        position: fixed;
-        right: 0;
-        top: 40px;
-        z-index: 11;
-        width: 800px;
-        
-    }
-
-    .hero .navbg img{
-        width: 800px;
-        height: 100px;
-    }
-
-    .hero .logo {
-        position: absolute;
-        left: 0;
-        top: 0;
-        z-index: 13;
-        
-    }
-
-    .hero .logo img{
-        width: 200px;
-        height: 200px;
-    }
-
     .section4 .txtbg2 img{
         width: 800px;
     }

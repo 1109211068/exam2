@@ -1,10 +1,4 @@
-  * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        
+
         @font-face {
         font-family: 'cat'; /* 給這個字體一個你喜歡的名稱 */
         src: url('../fonts/MaokenAssortedSans-TC.otf') format('opentype'); /* 字體檔案的路徑和格式 */
@@ -16,43 +10,6 @@
             font-family: "Noto Sans TC", sans-serif;
             line-height: 1.6;
             background-color: #FFFDF6;
-        }
-
-
-
-        .hero-bg {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            background-color: #fefefe; 
-            z-index: 0;
-        }
-
-        /* 導覽列 */
-        nav {
-        position: fixed;
-        margin-top: 30px;
-        /* margin-right: 200px; */
-        top: 30px;
-        right: 40px;
-        display: flex;
-        gap: 60px;
-        /* background: rgba(255, 255, 255, 0.8); */
-        padding: 10px 20px;
-        border-radius: 20px;
-        z-index: 12;
-        }
-        nav a {
-        text-decoration: none;
-        color: #333;
-        font-weight: bold;
-        font-size: 1.6rem;
-        }
-        nav a:hover {
-            color: #007BFF;
         }
 
         .section{
@@ -310,27 +267,3 @@
     color: #aaa;
     font-size: 0.9rem;
 }
-
-.hero .navbg{
-    position: fixed;
-    right: 0;
-    top: 40px;
-    z-index: 11;
-}
-
-.hero .logo {
-    position: absolute;
-    left: 0;
-    top: 0;
-    z-index: 13;
-}
-
-.hero .navbg img{
-        width: 800px;
-        height: 100px;
-    }
-
-    .hero .logo img{
-        width: 200px;
-        height: 200px;
-    }
